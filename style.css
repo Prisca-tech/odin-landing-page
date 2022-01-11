@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15rem 2rem 15rem;
+
+}
+
+.header{
+    background: rgb(1, 1, 32);
+   display: flex;
+   flex-direction: column;
+   padding: 10px 10rem 30px 10rem;
+}
+
+.header__links{
+    color: #fff;
+    
+}
+.header__links-logo{
+    float: left;
+}
+
+.header__links-texts{
+    float: right;
+    display: flex;
+    width: 300px;
+    font-size: 12px;
+    justify-content: space-between;
+}
+
+.header__desc{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 50px;
+
+}
+.header__desc-text{
+    display: flex;
+    flex-direction: column;  
+    width: 45%;
+
+}
+.header__desc-img{
+    background: grey;
+    height: 180px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+.header__desc-text button{
+    padding: 10px 10px 10px 10px;
+    background: blue;
+    color:  #fff;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+}
+
+.information{
+    background: whitesmoke;
+    height: 200px;
+    margin-top: 30px;
+}
+.thor{
+    background: rgb(179, 178, 178);
+    height: 200px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+
+}
+.thor__text{
+    width: 35%;
+    line-height: 20px;
+    
+
+}
+.thor__text-God{
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.action{
+    background: rgb(41, 41, 248);
+    height: 200px;
+    margin-top: 30px;
+}
+.footer{
+    background: rgb(1, 1, 32);
+    height: 100px;
+    margin-top: 30px;
+}
