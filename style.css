@@ -61,17 +61,65 @@ body{
     color:  #fff;
     border: none;
     outline: none;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .information{
     background: whitesmoke;
-    height: 200px;
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
 }
+
+.information h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.information__box-container {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  align-self: center;
+}
+
+.information__box1,
+.information__box2,
+.information__box3,
+.information__box4 {
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.information__box1 p,
+.information__box2 p,
+.information__box3 p,
+.information__box4 p {
+  margin-top: 10px;
+}
+
+.information__box1 div,
+.information__box2 div,
+.information__box3 div,
+.information__box4 div {
+  background: transparent;
+  border: 1px solid blue;
+  border-radius: 10px;
+  height: 80px;
+  width: 80px;
+}
+
 .thor{
     background: rgb(179, 178, 178);
     height: 200px;
+    margin-top: 30px;
    display: flex;
    align-items: center;
    justify-content: center;
